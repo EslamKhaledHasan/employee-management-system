@@ -1,0 +1,16 @@
+D:\tasks\windows tasks\employee_management_system\employee_management_system\bin\Debug\employee_management_system.exe.config
+D:\tasks\windows tasks\employee_management_system\employee_management_system\bin\Debug\employee_management_system.exe
+D:\tasks\windows tasks\employee_management_system\employee_management_system\bin\Debug\employee_management_system.pdb
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.csproj.AssemblyReference.cache
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.csproj.SuggestedBindingRedirects.cache
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.Employee.resources
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.Form1.resources
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.Properties.Resources.resources
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.csproj.GenerateResource.cache
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.csproj.CoreCompileInputs.cache
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.exe
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.pdb
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.Departments.resources
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.salary.resources
+D:\tasks\windows tasks\employee_management_system\employee_management_system\bin\Debug\Guna.UI2.dll
+D:\tasks\windows tasks\employee_management_system\employee_management_system\obj\Debug\employee_management_system.csproj.CopyComplete
