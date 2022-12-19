@@ -14,7 +14,7 @@ namespace employee_management_system
     public partial class Departments : Form
     {
         functions Con;
-             
+
         public Departments()
         {
             InitializeComponent();
@@ -33,7 +33,7 @@ namespace employee_management_system
             return DepNameTb;
         }
 
-       
+
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
@@ -44,7 +44,7 @@ namespace employee_management_system
         {
             try
             {
-                if(DepNameTb.Text == "")
+                if (DepNameTb.Text == "")
                 {
                     MessageBox.Show("Missing Data");
                 }
@@ -60,11 +60,11 @@ namespace employee_management_system
 
                 }
             }
-            catch(Exception Ex)
+            catch (Exception Ex)
             {
                 MessageBox.Show(Ex.Message);
             }
-       
+
         }
 
         private void EditBtn_Click(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace employee_management_system
                 {
                     string Dep = DepNameTb.Text;
                     String Query = "Update DepartmentTb1 set DepName = '{0}' Where DepId = {1}";
-                    Query = string.Format(Query, DepNameTb.Text,key);
+                    Query = string.Format(Query, DepNameTb.Text, key);
                     Con.SetData(Query);
                     ShowDepartments();
                     MessageBox.Show("Department Ubdated");
@@ -105,6 +105,33 @@ namespace employee_management_system
                 key = Convert.ToInt32(DepList.SelectedRows[0].Cells[0].Value.ToString());
             }
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    String Query = "Delete from DepartmentTb1 Where DepId = {0}";
+                    Query = string.Format(Query, key);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Department Delelted");
+                    DepNameTb.Text = "";
+
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+
+            }
         }
     }
 }
