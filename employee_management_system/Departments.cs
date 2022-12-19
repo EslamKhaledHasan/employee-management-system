@@ -93,6 +93,7 @@ namespace employee_management_system
             }
         }
 
+        
         private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             DepNameTb.Text = DepList.SelectedRows[0].Cells[0].Value.ToString();
@@ -132,6 +133,19 @@ namespace employee_management_system
                 MessageBox.Show(Ex.Message);
 
             }
+        }
+
+        private void EmpLbl_Click(object sender, EventArgs e)
+        {
+            Employee Obj = new Employee();
+            Obj.Show();
+            this.Hide();
+
+        }
+
+        private void Departments_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
